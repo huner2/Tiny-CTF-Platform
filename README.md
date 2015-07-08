@@ -1,10 +1,10 @@
-tinyctf-platform
+Tiny-CTF-Platform
 ================
 
-`tinyctf-platform` is yet another open-source (jeopardy style) CTF platform. It is relatively easy to set up and modify.
+`Tiny-CTF-Platform` is yet another open-source (jeopardy style) CTF platform. It is relatively easy to set up and modify.
 This is my version of it, as I make it better over time, I will release a more generalized version that I've worked on.
 
-![alt text](http://i.imgur.com/dqGeLNM.jpg "tinyctf-platform in action")
+![alt text](http://i.imgur.com/dqGeLNM.jpg "Tiny-CTF-Platform in action")
 
 Deployment
 ----------
