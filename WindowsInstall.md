@@ -1,7 +1,7 @@
 Windows
 ----------
 
-To deploy `tinyctf-platform` on a Windows platform (Recommend using Windows 7 or later; or Server 2008 or later), follow these instructions:
+To deploy `Tiny-CTF-Platform` on a Windows platform (Recommend using Windows 7 or later; or Server 2008 or later), follow these instructions:
 
 Make sure you have the latest updates/service pack:
 
