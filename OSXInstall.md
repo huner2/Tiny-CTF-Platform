@@ -1,7 +1,7 @@
 Mac OSX
 ----------
 
-To deploy `tinyctf-platform` on a Mac OSX platform (**Must** have the most recent OSX version due to Apple XCode), follow these instructions:
+To deploy `Tiny-CTF-Platform` on a Mac OSX platform (**Must** have the most recent OSX version due to Apple XCode), follow these instructions:
 
 Download and install XCode from [here](https://itunes.apple.com/us/app/xcode/id497799835?ls=1&mt=12)
 
@@ -24,7 +24,7 @@ Install Flask, dataset, and simplejson
 Clone the repo
 
     git clone https://github.com/huner2/Tiny-CTF-Platform.git
-    cd tinyctf-platform/
+    cd Tiny-CTF-Platform/
     
 Import the tasks (Must do after every task-change)
 
