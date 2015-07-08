@@ -1,0 +1,36 @@
+{"categories": [
+    {"id": 0, "name": "Misc.", "short_name": "Misc", "tasks": [
+        {
+            "id": 0, 
+            "row": 0,
+            "name": "Test flag, please ignore", 
+            "score": "50",
+            "flag": "flag{hello_world}",
+            "desc": "The flag is hello_world, with the flag tag and brackets",
+            "file": "misc50.zip",
+			"link": ""
+        },
+        {
+            "id": 1, 
+            "row": 1,
+            "name": "Test flag, please ignore 2", 
+            "score": "100",
+            "flag": "flag{test_test}",
+            "desc": "The flag is test_test, with the flag tag and brackets",
+            "file": "misc100.zip",
+			"link": ""
+        }
+    ]},
+    {"id": 1, "name": "Web", "short_name": "Web", "tasks": [
+        {
+            "id": 2, 
+            "row": 0,
+            "name": "Some sqli task", 
+            "score": "100",
+            "flag": "flag{web_test}",
+            "desc": "The flag is web_test, with the flag tag and brackets",
+            "file": "",
+			"link": "http://www.google.com"
+        }
+    ]}
+]}

@@ -1,0 +1,13 @@
+{
+    "secret_key": "this_is_quite_the_secret_key",
+    
+    "host": "0.0.0.0",
+    "port": 80,
+    
+    "db": "sqlite:///ctf.db",
+    
+    "language_file": "lang.json",
+    "language": "english",
+
+    "debug": false
+}
