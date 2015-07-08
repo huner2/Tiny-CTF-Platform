@@ -22,13 +22,21 @@
           <a href="{{ url_for('static', filename='files/'+task.file) }}">{{ task.file }}</a>
 		{% endif %}
       </p>
-	  <p>
+	<p>
         <b>{{ lang.task.webpage }}: </b>
 		{% if not task.link %}
 		  {{ lang.task.no_webpage}}
 		{% else %}
           <a target="_blank" href="{{task.link}}">{{ task.link }}</a>
 		{% endif %}
+      </p>
+      <p>
+      	<b>{{ lang.task.hint }}:</b>
+      		{% if not task.hint %}
+      		  {{ lang.task.no_hint}}
+      		{% else %}
+      		{{task.hint}}
+      		{% endif %}
       </p>
       <input id="flag-input" type="text" class="form-control" 
         placeholder="{% if task_done %}{{ lang.task.success }}{% 
