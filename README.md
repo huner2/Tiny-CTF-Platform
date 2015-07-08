@@ -19,7 +19,7 @@ Deployment
 
 After installation, if you want users that aren't on your network to be able to access the website, there are a few [additional steps](https://github.com/huner2/Tiny-CTF-Platform/blob/master/External.md)
 
-[Customization](https://github.com/huner2/Tiny-CTF-Platform/blob/masterCustomization.md)
+[Customization](https://github.com/huner2/Tiny-CTF-Platform/blob/master/Customization.md)
 -------
 
 Caveats
