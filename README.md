@@ -2,7 +2,7 @@ Tiny-CTF-Platform
 ================
 
 `Tiny-CTF-Platform` is yet another open-source (jeopardy style) CTF platform. It is relatively easy to set up and modify.
-This is my version of it, as I make it better over time, I will release a more generalized version that I've worked on.
+I will to try and make it work as well as I can, and add new features.
 
 ![alt text](http://i.imgur.com/dqGeLNM.jpg "Tiny-CTF-Platform in action")
 
@@ -27,6 +27,11 @@ Caveats
 
 * CSRF is currently not addressed
 * The platform does not support tasks with the same score and category right now
+
+Pending Features
+-------
+
+* Hint text that can be displayed after a `hint` button is pressed on the task pages.
 
 Contact
 -------
