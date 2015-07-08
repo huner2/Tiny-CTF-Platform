@@ -1,7 +1,7 @@
 .RPM Based
 ----------
 
-To deploy `tinyctf-platform` on a .RPM based platform (RedHat, Fedora Core, OpenSuse, Mandriva, and many others) execute the following commands:
+To deploy `Tiny-CTF-Platform` on a .RPM based platform (RedHat, Fedora Core, OpenSuse, Mandriva, and many others) execute the following commands:
 
 Become root, upgrade
 
@@ -22,8 +22,8 @@ Install Flask, dataset, and simplejson
     
 Clone the repo
 
-    git clone https://github.com/balidani/tinyctf-platform.git
-    cd tinyctf-platform/
+    git clone https://github.com/huner2/Tiny-CTF-Platform.git
+    cd Tiny-CTF-Platform/
     
 Import the tasks (Must be done after every task-change)
 
