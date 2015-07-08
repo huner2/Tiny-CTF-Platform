@@ -11,7 +11,7 @@ Deployment
 
 [Debian Based](https://github.com/huner2/Tiny-CTF-Platform/blob/master/DebianInstall.md)
 
-[.RPM Based](https://github.com/huner2/Tiny-CTF-PlatformF/blob/master/RPMInstall.md)
+[.RPM Based](https://github.com/huner2/Tiny-CTF-Platform/blob/master/RPMInstall.md)
 
 [Windows](https://github.com/huner2/Tiny-CTF-Platform/blob/master/WindowsInstall.md)
 
