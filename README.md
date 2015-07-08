@@ -9,17 +9,17 @@ This is my version of it, as I make it better over time, I will release a more g
 Deployment
 ----------
 
-[Debian Based](https://github.com/huner2/HunerCTF/blob/master/www/DebianInstall.md)
+[Debian Based](https://github.com/huner2/Tiny-CTF-Platform/blob/master/www/DebianInstall.md)
 
-[.RPM Based](https://github.com/huner2/HunerCTF/blob/master/www/RPMInstall.md)
+[.RPM Based](https://github.com/huner2/Tiny-CTF-PlatformF/blob/master/www/RPMInstall.md)
 
-[Windows](https://github.com/huner2/HunerCTF/blob/master/www/WindowsInstall.md)
+[Windows](https://github.com/huner2/Tiny-CTF-Platform/blob/master/www/WindowsInstall.md)
 
-[OSX](https://github.com/huner2/HunerCTF/blob/master/www/OSXInstall.md)
+[OSX](https://github.com/huner2/Tiny-CTF-Platform/blob/master/www/OSXInstall.md)
 
-After installation, if you want users that aren't on your network to be able to access the website, there are a few [additional steps](https://github.com/huner2/HunerCTF/blob/master/www/External.md)
+After installation, if you want users that aren't on your network to be able to access the website, there are a few [additional steps](https://github.com/huner2/Tiny-CTF-Platform/blob/master/www/External.md)
 
-[Customization](https://github.com/huner2/HunerCTF/blob/master/www/Customization.md)
+[Customization](https://github.com/huner2/Tiny-CTF-Platform/blob/master/www/Customization.md)
 -------
 
 Caveats
@@ -36,4 +36,4 @@ Contact me at:
 * robloxfan200@gmail.com
 
 or
-* Submit it in the [issues](https://github.com/huner2/HunerCTF/issues) 
+* Submit it in the [issues](https://github.com/huner2/Tiny-CTF-Platform/issues) 
