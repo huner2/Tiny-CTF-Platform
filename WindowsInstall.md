@@ -7,7 +7,7 @@ Make sure you have the latest updates/service pack:
 
     Use Windows Update to accomplish this
     
-Download the .zip file of this repository [Here](https://github.com/huner2/HunerCTF/archive/master.zip)
+Download the .zip file of this repository [Here](https://github.com/huner2/Tiny-CTF-Platform/archive/master.zip)
 
 Unzip it to the location of your choice. *C:\TinyCtf* will be used for these instructions.
 
