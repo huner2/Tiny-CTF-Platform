@@ -23,7 +23,7 @@ Install Flask, dataset, and simplejson
 
 Clone the repo
 
-    git clone https://github.com/balidani/tinyctf-platform.git
+    git clone https://github.com/huner2/Tiny-CTF-Platform.git
     cd tinyctf-platform/
     
 Import the tasks (Must do after every task-change)
