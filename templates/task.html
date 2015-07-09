@@ -33,9 +33,9 @@
       <p>
       	<b>{{ lang.task.hint }}:</b>
       		{% if not task.hint %}
-      		  {{ lang.task.no_hint}}
+      		  {{ lang.task.no_hint}} 
       		{% else %}
-      		{{task.hint}}
+      		 <span id="hint" style="display:none;"> {{task.hint}} </span> <span id="show" style="color:#428bca;cursor: pointer; cursor:hand;"> {{lang.task.show}} </span> <span id="hide" style="color:#428bca;display:none; cursor: pointer; cursor:hand;"> {{lang.task.hide}} </span>
       		{% endif %}
       </p>
       <input id="flag-input" type="text" class="form-control" 
@@ -55,3 +55,5 @@
   data-failure="{{ lang.task.failure }}"></span>
 <script src="{{ url_for('static', filename='js/submit.js') }}" 
     type='text/javascript'></script>
+<script src="{{ url_for('static', filename='js/hint.js') }}"
+	type='text/javascript'></script>
