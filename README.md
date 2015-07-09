@@ -31,7 +31,7 @@ Caveats
 Pending Features
 -------
 
-* Hint text that can be displayed after a `show` button is pressed on the task pages.
+* ~~Hint text that can be displayed after a `show` button is pressed on the task pages.~~ Done.
 * Customizable minimum password length requirement
 
 Contact
