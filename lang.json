@@ -33,7 +33,9 @@
             "no_description": "(none)",
 			"no_webpage": "(none)",
 			"no_attachment": "(none)",
-            "placeholder": "flag{insert_flag_here}"
+            "placeholder": "flag{insert_flag_here}",
+			"hint":"Hint",
+			"no_hint":"(none)"
         },
         "scoreboard": {
             "title": "Scoreboard",
