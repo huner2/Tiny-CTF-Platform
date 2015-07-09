@@ -8,7 +8,8 @@
             "flag": "flag{hello_world}",
             "desc": "The flag is hello_world, with the flag tag and brackets",
             "file": "misc50.zip",
-			"link": ""
+			"link": "",
+			"hint": "test_hint"
         },
         {
             "id": 1, 
@@ -18,7 +19,8 @@
             "flag": "flag{test_test}",
             "desc": "The flag is test_test, with the flag tag and brackets",
             "file": "misc100.zip",
-			"link": ""
+			"link": "",
+			"hint": ""
         }
     ]},
     {"id": 1, "name": "Web", "short_name": "Web", "tasks": [
@@ -30,7 +32,8 @@
             "flag": "flag{web_test}",
             "desc": "The flag is web_test, with the flag tag and brackets",
             "file": "",
-			"link": "http://www.google.com"
+			"link": "http://www.google.com",
+			"hint": ""
         }
     ]}
 ]}
