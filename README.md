@@ -37,7 +37,7 @@ Pending Features
 
 Contact
 -------
-Need additional help or found a bug?
+Need additional help, found a bug, or found a security-flaw?
 
 Contact me at:
 * robloxfan200@gmail.com
