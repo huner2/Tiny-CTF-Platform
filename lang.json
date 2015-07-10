@@ -51,7 +51,8 @@
             "invalid_credentials": "Invalid username or password",
             "already_registered": "This user is already registered",
             "empty_user": "Empty username is not allowed",
-            "task_not_found": "TBD"
+            "task_not_found": "TBD",
+			"password_too_short":"Password length requirement not met"
         }
     }
 }

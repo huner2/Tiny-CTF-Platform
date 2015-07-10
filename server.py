@@ -106,7 +106,7 @@ def register():
 
     # Render template
     render = render_template('frame.html', lang=lang, 
-        page='register.html', login=False)
+        page='register.html', login=False, minpasslength=minpasslength)
     return make_response(render) 
 
 @app.route('/register/submit', methods = ['POST'])
@@ -124,7 +124,10 @@ def register_submit():
     user_found = db['users'].find_one(username=username)
     if user_found:
         return redirect('/error/already_registered')
-            
+    
+    if len(password) < minpasslength:
+        return redirect('error/password_too_short')
+	
     new_user = dict(hidden=0, username=username, 
         password=generate_password_hash(password))
     db['users'].insert(new_user)
@@ -278,9 +281,11 @@ if __name__ == '__main__':
     """Initializes the database and sets up the language"""
 
     # Load config
+	
     config_str = open('config.json', 'rb').read()
     config = json.loads(config_str)
 
+    minpasslength = config['minimum_password_length']
     app.secret_key = config['secret_key']
 
     # Load language
