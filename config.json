@@ -9,7 +9,7 @@
     "language_file": "lang.json",
     "language": "english",
 	
-	"password_length": 6,
+	"minimum_password_length": 6,
 
     "debug": false
 }
