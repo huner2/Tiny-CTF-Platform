@@ -25,15 +25,15 @@ After installation, if you want users that aren't on your network to be able to 
 Caveats
 -------
 
-* CSRF is currently not addressed
 * The platform does not support tasks with the same score and category right now
 
 Pending Features
 -------
 
 * ~~Hint text that can be displayed after a `show` button is pressed on the task pages.~~ Done.
-* ~~Customizable minimum password length requirement~~
-* CSRF Security
+* ~~Customizable minimum password length requirement~~ Done.
+* ~~CSRF Security~~ Implemented a basic Javascript CSRF security system.  It is annoying though as pages (other than the index page) that are accessed directly through the url bar, will be treated as CSRF attempts.
+* More advanced CSRF security
 
 Contact
 -------
