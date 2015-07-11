@@ -32,8 +32,8 @@ Pending Features
 
 * ~~Hint text that can be displayed after a `show` button is pressed on the task pages.~~ Done.
 * ~~Customizable minimum password length requirement~~ Done.
-* ~~CSRF Security~~ Implemented a basic Javascript CSRF security system.  It is annoying though as pages (other than the index page) that are accessed directly through the url bar, will be treated as CSRF attempts.
-* More advanced CSRF security
+* ~~CSRF Security - Implemented a basic Javascript CSRF security system.  It is annoying though as pages (other than the index page) that are accessed directly through the url bar, will be treated as CSRF attempts.~~ Removed.
+* ~~More advanced CSRF security~~ Done.
 
 Contact
 -------
