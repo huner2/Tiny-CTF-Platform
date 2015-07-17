@@ -44,7 +44,7 @@ Move into the directory
 Install Flask, dataset, and simplejson
 
     easy_install Flask
-    easy_install Flask-WTF
+    easy_install flask-seasurf
     easy_install dataset
     easy_install simplejson
     
