@@ -18,12 +18,10 @@ from flask import render_template
 from flask import request
 from flask import session
 from flask import url_for
-from flask_wtf.csrf import CsrfProtect
+from flask.ext.seasurf import SeaSurf
 
 app = Flask(__name__, static_folder='static', static_url_path='')
-
-csrf = CsrfProtect()
-CsrfProtect(app)
+csrf = SeaSurf(app)
 
 db = None
 lang = None
@@ -280,10 +278,6 @@ def index():
     render = render_template('frame.html', lang=lang, 
         page='main.html', login=login, user=user)
     return make_response(render)
-	
-@csrf.error_handler
-def csrf_error(reason):
-    return render_template('csrf_error.html', reason=reason), 400
 
 if __name__ == '__main__':
     """Initializes the database and sets up the language"""

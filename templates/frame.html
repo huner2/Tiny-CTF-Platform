@@ -11,9 +11,6 @@
         <title>{{ lang.frame.title }}</title>
     </head>
     <body>
-	<form method="post" action="">
-		<input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
-	</form>
         <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
           <div class="container">
             <div class="navbar-header">
@@ -36,6 +33,7 @@
                 </div>
                 <button formaction="/login" type="submit" class="btn btn-success">{{ lang.frame.login }}</button>
                 <a href="/register"><button type="button" class="btn btn-success">{{ lang.frame.register }}</button></a>
+				<input type="hidden" name="_csrf_token" value="{{ csrf_token() }}">
               </form>
             </div>
             {% else %}
