@@ -15,7 +15,7 @@
             "id": 1, 
             "row": 1,
             "name": "Test flag, please ignore 2", 
-            "score": "100",
+            "score": "100"",
             "flag": "flag{test_test}",
             "desc": "The flag is test_test, with the flag tag and brackets",
             "file": "misc100.zip",
