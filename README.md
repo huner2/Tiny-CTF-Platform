@@ -34,6 +34,7 @@ Pending Features
 * ~~Customizable minimum password length requirement~~ Done.
 * ~~CSRF Security - Implemented a basic Javascript CSRF security system.  It is annoying though as pages (other than the index page) that are accessed directly through the url bar, will be treated as CSRF attempts.~~ Removed.
 * ~~More advanced CSRF security~~ Done.
+* Working on allowing multiple tasks with the same score and category.
 
 Contact
 -------
