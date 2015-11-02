@@ -6,7 +6,8 @@ To deploy `Tiny-CTF-Platform` on a .deb based platform (debian-based, such as De
 Become root, upgrade
 
     sudo -s
-    apt-get install updates
+    apt-get update
+    apt-get upgrade
     apt-get install build-essential
     
 Install some prerequisites
