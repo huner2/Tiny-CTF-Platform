@@ -3,7 +3,7 @@
 """server.py -- the main flask server module"""
 
 import dataset
-import json
+import simplejson as json
 import random
 import time
 
