@@ -41,7 +41,7 @@ Contact
 Need additional help, found a bug, or found a security-flaw?
 
 Contact me at:
-* robloxfan200@gmail.com
+* hrross86@gmail.com
 
 or
 * Submit it in the [issues](https://github.com/huner2/Tiny-CTF-Platform/issues) 
