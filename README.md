@@ -1,7 +1,7 @@
 Tiny-CTF-Platform
 ================
 
-`Tiny-CTF-Platform` is yet another open-source (jeopardy style) CTF platform. It is relatively easy to set up and modify.
+`Tiny-CTF-Platform` is an open-source (jeopardy style) CTF platform. It is relatively easy to set up and modify.
 I will to try and make it work as well as I can, and add new features.
 
 ![alt text](http://i.imgur.com/dqGeLNM.jpg "Tiny-CTF-Platform in action")
